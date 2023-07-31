@@ -113,7 +113,7 @@ body.dark {
     font-weight: 700;
   }
   .tarjeta {
-    width: 90%;
+    width: 95%;
     color: var(--primary-color);
     background-color: var(--bg-card-color);
     border-radius: 5px;
@@ -151,7 +151,7 @@ body.dark {
     width: 100%;
   }
   .tarjeta-habilidades{
-    width: 90%;
+    width: 95%;
     color: var(--primary-color);
     background-color: var(--bg-card-color);
     border-radius: 5px;
@@ -212,7 +212,7 @@ body.dark {
   .tarjeta-proyecto {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     color: var(--primary-color);
     background-color: var(--bg-card-color);
     border-radius: 5px;
@@ -238,14 +238,16 @@ body.dark {
   }
   .tech-list{
     display: flex;
-    justify-content: start
+    justify-content: start;
+    flex-wrap: wrap;
   }
   .tech-proyecto{
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    padding: 3px 10px;
+    padding: 3px 8px;
     margin-right: 10px;
-    
+    font-size: 1rem;
+    margin-bottom: 3px;
   }
 
   .tarjeta-footer{
@@ -296,10 +298,10 @@ body.dark {
     
   }
   aside {
-    width: 35%;
+    width: 20%;
   }
   main{
-    width: 65%;
+    width: 80%;
   }
 
   .tarjeta-presentacion img {
@@ -344,7 +346,7 @@ body.dark {
     justify-content: center
   }
   .proyectos{
-    width: 90%;
+    width: 95%;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
